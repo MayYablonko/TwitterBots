@@ -9,7 +9,6 @@ import requests
 
 from KEYSnotforpublic import royalcatskeys as rck
 
-
 ####################################
 
 def api():
@@ -25,6 +24,6 @@ def tweet(api: tweepy.API, message: str, image_path=None):
     print("tweeted successfully")
 
 
-if __name__ == "__main__":
-    api = api()
-    ## tweet(api, #"this was tweeted from python"-message, #imagepath????)
+# if __name__ == "__main__":
+#     api = api()
+#     ## tweet(api, #"this was tweeted from python"-message, #imagepath????)
